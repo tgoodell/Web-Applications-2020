@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'B612';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('B612 Regular'), local('B612-Regular'), url(https://fonts.gstatic.com/s/b612/v3/3JnySDDxiSz36j6yGQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+  
+* {
+    margin: 0;
+    font-family: 'B612', sans-serif;
+    font-style: normal;
+}
+
+img  {
+    width: 300px;
+}
+
+a {
+    color: #2b59c3;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #073763;
+}
+
+body {
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
+
+.nav-links {
+    margin-bottom: 20px;
+}
+
+.nav-links a {
+    color: #2b59c3;
+    text-decoration: none;
+    border-bottom: 3px solid #b6b6b6;
+    padding: 2px;
+    margin-right: 10px;
+    line-height: 30px;
+}
+
+.nav-links a:hover {
+    color: #0b5394;
+    border-bottom: 3px solid #d36582;
+}
+
+.body-text {
+    padding: 10px;
+    box-shadow:0 2px 4px 0 rgba(0,0,0,0.2),0 1.5px 5px 0 rgba(0,0,0,0.19);
+    background-color: #fff;
+}
+
+.body-text h1 {
+    border-left: 10px solid #ffdd4a;
+    padding: 5px;
+    color: #073763;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.body-text h2 {
+    font-size: 14px;
+    background-color: #073763;
+    color: #fff;
+    padding: 1px;
+}
+
+.body-text h3 {
+    font-size: 13px;
+}
+
+.body-text p {
+    font-size: 13px;
+}
+
+th {
+    padding: 1px;
+}
+
+td, th {
+    border-bottom: 2px solid #dddddd;
+    font-size: 13px;
+}
+
+th, td {
+    padding: 15px;
+}
+
+li {
+    font-size: 13px;
+}
+
+footer {
+    color: rgb(158, 158, 158);
+    text-align: center;
+    font-size: 11px;
+}
+
+footer a {
+    color: rgb(158, 158, 158);
+}
+
+@media (max-width: 874px) {
+    body {
+        width: auto;
+    }
+}
+
+@media (max-width: 316px) {
+    img {
+        width: 100%;
+    }
+}

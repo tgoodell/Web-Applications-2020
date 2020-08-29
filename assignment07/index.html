@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Assignment07 &mdash; PHPrate</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script>
+            function add() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                update();
+            };
+            xhttp.open("GET", "add.php?item="+document.getElementById("item").value, true);
+            xhttp.send();
+            }
+
+            function toggle(x) {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                update();
+            };
+            xhttp.open("GET", "toggle.php?id="+x, true);
+            xhttp.send();
+            }
+
+            function remove(x) {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                update();
+            };
+            xhttp.open("GET", "delete.php?id="+x, true);
+            xhttp.send();
+            }
+
+            function update() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("list").innerHTML = this.responseText;
+                }
+            };
+            xhttp.open("GET", "list.php", true);
+            xhttp.send();
+            }
+        </script>
+    </head>
+
+    <body onload="update();" style="padding:10px;">
+        <div class="container card shadow">
+            <h1 style="border-bottom: 5px solid WhiteSmoke;padding-top:10px;" class="text-uppercase">Assignment07 &mdash; PHPrate</h1>
+            <h2 style="border-left: 15px solid RoyalBlue;padding-left:5px;">Anonymous Complaints</h2>
+            <p class="text-muted"><i>File your complaints and record your discontent with everything here.</i></p>
+            <div class="form-group">
+                <textarea id="item" class="form-control"> </textarea> <input type="button" onclick="add()" value="SUBMIT COMPLAINT" class="btn btn-info" style="margin-top:5px;" />
+            </div>
+            <hr style="border: 2px solid LightSteelBlue;border-radius: 5px;">
+            <div id="list" style="">
+
+            </div>
+        </div>
+        <div class="container card shadow mt-3">
+            <span class="align-baseline m-3" style="text-align:center;">Initial complaints about the United States courtesy of <a href="https://www.pakin.org/complaint/">Scott Pakin's complaint generator</a>.</span>
+        </div>
+        <div class="container card shadow mt-3">
+            <span class="align-baseline m-3" style="text-align:center;"><a href="http://compsci.asmsa.org/goodellt21/">Return to Directory</a></span>
+        </div>
+    </body>
+</html>
