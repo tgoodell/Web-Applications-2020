@@ -9,27 +9,30 @@ You need to redo assignment 01 with at least 10 Bootstrap elements. In class, yo
 
 Notes from last class: 
 
-[What is Bootstrap?](https://www.w3schools.com/whatis/whatis_bootstrap.asp)
+#### [What is Bootstrap?](https://www.w3schools.com/whatis/whatis_bootstrap.asp)
 - Definition
 - Use - computer/tablet/phone
 - Example
 - Is Bootstrap better than pure CSS?
-    * Pure CSS and Bootstrap have their pros and cons. The majority of web developers are using both. According to the answers of learing Bootstrap and use CSS, Here is a typical way that developers follow:
+    * Pure CSS and Bootstrap have their pros and cons. The majority of web developers are using both. [According to the answers of learing Bootstrap and use CSS](https://www.quora.com/Should-I-learn-Bootstrap-or-use-my-own-CSS), Here is a typical way that developers follow:
     * Learn CSS
     * Learn Bootstrap
     * Study Bootstrap code, you'll learn some layout foundations, and there are actually a lot of interesting tricks
     * Write your own CSS
 
 Sass (and LESS)  are CSS extensions and preprocessers, used to keep things organised and allows you to create style sheets faster.  Basically, you create what you want the CSS to look like using variables, inheritance, etc, then run the SASS through a terminal and have it create the CSS file.
+
 Bootstrap is a is a css framework.  It is used to create UI better and faster. Using bootstrap one can develop UI with prebuilt components like bootstrap buttons, bootstrap tables and many more. So, developers can take advantage of bootstrap to develop the UI faster with the prebuilt UI components.
+
 Hence, with Less and Scss one can write and organise css. Where as, with bootstrap one can create UI with prebuilt components.
+
 There is also a Bootstrap SASS.
 
 
 How?
-Can be download...
-Better - 
-<!DOCTYPE html>
+- Can be download...
+- Better - 
+```<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -52,40 +55,44 @@ Add the next three lines:
 
 </body>
                     </html>
+```
 
-Bootstrap - W3Schools
 
-Bootstrap - Grid
+#### More links: 
 
-Bootstrap - Tables
+- [Bootstrap - W3Schools](https://www.w3schools.com/bootstrap/)
 
-CSS - Images
+- [Bootstrap - Grid](https://www.w3schools.com/bootstrap/bootstrap_grid_basic.asp)
 
-Bootstrap - Images
+- [Bootstrap - Tables](https://www.w3schools.com/bootstrap/bootstrap_tables.asp)
 
-CSS - Border Images
+- [CSS - Images](https://www.w3schools.com/css/css3_borders.asp)
 
-Bootstrap - Alerts (set colors - not like css)
+- [Bootstrap - Images](https://www.w3schools.com/bootstrap/bootstrap_images.asp)
 
-CSS - Buttons
+- [CSS - Border Images](https://www.w3schools.com/css/css3_border_images.asp)
 
-Bootstrap - Buttons (set colors - not like css)
+- [Bootstrap - Alerts](https://www.w3schools.com/bootstrap/bootstrap_alerts.asp) (set colors - not like css)
 
-Bootstrap - Button Groups
+- [CSS - Buttons](https://www.w3schools.com/css/css3_buttons.asp)
 
-Bootstrap - Glyphicons    More...
+- [Bootstrap - Buttons](https://www.w3schools.com/bootstrap/bootstrap_buttons.asp) (set colors - not like css)
 
-Bootstrap - Dropdown
+- [Bootstrap - Button Groups](https://www.w3schools.com/bootstrap/bootstrap_button_groups.asp)
 
-Bootstrap - Collapsible
+- [Bootstrap - Glyphicons](https://www.w3schools.com/bootstrap/bootstrap_glyphicons.asp)    [More...](https://getbootstrap.com/docs/3.3/components/)
 
-Bootstrap - Navigation Bar
+- [Bootstrap - Dropdown](https://www.w3schools.com/bootstrap/bootstrap_dropdowns.asp)
 
-Bootstrap - Forms (setup and validation only)
+- [Bootstrap - Collapsible](https://www.w3schools.com/bootstrap/bootstrap_collapse.asp)
 
-Bootstrap - Popover
+- [Bootstrap - Navigation Bar](https://www.w3schools.com/bootstrap/bootstrap_navbar.asp)
 
-CSS - Reference
+- [Bootstrap - Forms](https://www.w3schools.com/bootstrap/bootstrap_forms.asp) (setup and validation only)
 
-Bootstrap - Classes
+- [Bootstrap - Popover](https://www.w3schools.com/bootstrap/bootstrap_popover.asp)
+
+- [CSS - Reference](https://www.w3schools.com/cssref/default.asp)
+
+- [Bootstrap - Classes](https://www.w3schools.com/bootstrap/bootstrap_ref_all_classes.asp)
 
