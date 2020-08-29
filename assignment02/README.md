@@ -32,29 +32,23 @@ There is also a Bootstrap SASS.
 How?
 - Can be download...
 - Better - 
-```<!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class=”container” -or- "container-fluid">
+            Page contents        
+        </div>
+    </body>
+</html>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-Sets the width of the page to the device screen width
-Sets initial zoom level when page is first loaded
-Add the next three lines:
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-  </head>
- <body>
-  
-			          Must put the page contents in a container (box within page) or container-fluid (extends to edge of page)
-<div class=”container” -or- "container-fluid">
-  Page contents        
-</div>
-
-</body>
-                    </html>
 ```
 
 
