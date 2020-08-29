@@ -2,7 +2,7 @@
 
 ---
 
-Make a assignment jump page in the root of your web directory.
+Make an assignment jump page in the root of your web directory.
 
 In a nicely named folder in your web directory make 3 interlinked pages.  Each of these pages should also link back to the jump page.
 
